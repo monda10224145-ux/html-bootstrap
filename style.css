@@ -1,0 +1,14 @@
+/* Contoh styling kustom di style.css */
+.pink-gradient {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+    color: #fff;
+}
+
+/* Jika ingin menyesuaikan card Bootstrap */
+.card {
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
